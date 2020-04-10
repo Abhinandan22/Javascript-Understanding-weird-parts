@@ -20,3 +20,5 @@ gs.print(self);
 };
 
 obj.details();
+
+//internal function is having errors.So we must use pass by reference
