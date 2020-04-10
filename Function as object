@@ -6,3 +6,10 @@ gs.print("Play Hard");
 play.style = "right - handed";
 gs.print(play);
 gs.print(play.style);
+
+*** Script: 
+function play() {
+    gs.print("Play Hard");
+}
+
+*** Script: right - handed
