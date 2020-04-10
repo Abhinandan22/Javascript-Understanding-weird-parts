@@ -1,0 +1,22 @@
+var obj = {
+
+name : "Abhi",
+title:"Parhi",
+
+details:function(){
+
+var self = this;
+
+self.name = "Updated name property"
+gs.print(self);
+
+var setname = function(newname){
+this.name = newname;
+}
+
+setname('Updated again! the c object');
+gs.print(self);
+}
+};
+
+obj.details();
