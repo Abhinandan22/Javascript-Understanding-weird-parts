@@ -1,0 +1,20 @@
+var obj = {
+
+name : "Abhi",
+title:"Parhi",
+
+details:function(){
+
+var value = this;
+gs.print(value);
+
+}
+};
+
+gs.print(obj.details);
+
+*** Script: 
+function () {
+    var value = this;
+    gs.print(value);
+}
