@@ -1,0 +1,13 @@
+function sayHi(){
+
+var greeting = 'Hi!';
+
+setTimeout(function(){
+
+gs.log(greeting);
+
+}, 3000);
+
+}
+
+sayHi();
