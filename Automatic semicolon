@@ -1,0 +1,23 @@
+function getPerson(){
+
+return{
+
+firstname : 'Tony'
+}
+
+}
+
+will return correct input
+
+
+function getPerson(){
+
+return
+{
+
+firstname : 'Tony'
+}
+
+}
+
+Will return incorrect result.
