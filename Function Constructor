@@ -1,0 +1,2 @@
+Construct an object via a function.The this variable points a new empty object.So, this is called a function constructor.
+
