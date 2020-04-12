@@ -5,3 +5,15 @@ gs.print(val +" " + value);
 }(10,20);  //IIFE
 
 //funValue(10);
+
+
+var firstName = "Abhi";
+
+(function (name){
+
+var greet = "Hello";
+console.log(name + greet);
+
+}(firstName));
+
+AbhiHello
