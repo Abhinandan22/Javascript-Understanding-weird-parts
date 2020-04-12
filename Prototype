@@ -1,0 +1,18 @@
+function Person(firstname,lastname)  {
+
+this.firstName = firstname;
+this.lastName =  lastname;
+
+}
+
+Person.prototype.getFullName = function(){
+
+return this.firstName + " " + this.lastName;
+
+}
+
+var john = new Person('Abhi','Parhi');
+var result = new Person('John','Cena');
+console.log(john);
+console.log(john.getFullName()); 
+console.log(result.getFullName());
