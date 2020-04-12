@@ -1,0 +1,9 @@
+function value(firstVal, secondVal){
+
+console.log(arguments.length);
+
+}
+
+console.log(value(4,6));
+
+VM140:3 2
