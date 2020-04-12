@@ -1,0 +1,31 @@
+var jane = {
+
+address : "Bengaluru",
+
+getAddress : function(){
+
+console.log(this.address);
+
+}
+}
+
+var jan = {
+
+street : "Hyd",
+
+getStreet : function(){
+
+console.log(this.street);
+
+}
+}
+
+
+var john = {
+
+local = "mend",
+
+}
+
+_.extend(john,jan,jane);
+console.log(john);//All the properties of other objects are extended here
