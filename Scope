@@ -1,0 +1,9 @@
+function value(val){
+
+return function(val1){
+
+console.log(val+ " " + val1);
+}
+}
+
+value("outer")("inner");
