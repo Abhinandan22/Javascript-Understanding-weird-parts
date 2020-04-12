@@ -1,0 +1,7 @@
+var funValue = function getValue(val,value){
+
+gs.print(val +" " + value);
+
+}(10,20);  //IIFE
+
+//funValue(10);
